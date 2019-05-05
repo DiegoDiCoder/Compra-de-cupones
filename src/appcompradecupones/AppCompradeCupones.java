@@ -16,6 +16,9 @@ public class AppCompradeCupones {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Ingresar i = new Ingresar();
+        i.setBounds(450, 250, 500, 300);
+        i.setVisible(true);
     }
     
 }
