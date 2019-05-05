@@ -18,11 +18,11 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String nombre, int CI, String clave) {
+    public Usuario(String nombre, int CI, String clave, int cupones) {
         this.nombre = nombre;
         this.CI = CI;
         this.clave = clave;
-        this.cupones= cupones;
+        this.cupones = cupones;
         
     }
 
